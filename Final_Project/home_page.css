@@ -1,4 +1,5 @@
 /* General Styles */
+
 html,
 body,
 div,
@@ -87,7 +88,6 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -102,21 +102,17 @@ nav,
 section {
   display: block;
 }
-
 body {
   line-height: 1;
 }
-
 ol,
 ul {
   list-style: none;
 }
-
 blockquote,
 q {
   quotes: none;
 }
-
 blockquote:before,
 blockquote:after,
 q:before,
@@ -124,7 +120,6 @@ q:after {
   content: "";
   content: none;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -139,7 +134,6 @@ body {
 a {
   text-decoration: none;
 }
-
 /* Header Styles */
 
 header {
@@ -218,11 +212,6 @@ h2 {
   font-size: 6em;
 }
 
-<<<<<<< HEAD
-
-.location-section div {
-  width: 50%;
-=======
 .location-section {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -232,8 +221,10 @@ h2 {
   margin: auto;
   max-width: 30em;
   display: flex;
-  justify-content: space-evenly;
->>>>>>> a58302237a46ea32d635a2e4d5d88a77813ae47f
+
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 .location-section-descrip {
@@ -252,6 +243,7 @@ h2 {
   color: darkblue;
   padding-bottom: 1em;
   font-weight: 700;
+
 }
 
 .location-section li {
@@ -276,13 +268,6 @@ button {
   cursor: pointer;
   /* background-color: green; */
   background: rgb(188, 203, 217);
-<<<<<<< HEAD
-  background: linear-gradient(90deg, rgba(188, 203, 217, 1) 0%, rgba(90, 153, 215, 1) 50%, rgba(79, 129, 179, 1) 68%, rgba(158, 135, 130, 1) 100%);
-  color: white;
-  border-radius: 30em;
-  height: 40px;
-  width: 150px;
-=======
   background: linear-gradient(
     90deg,
     rgba(188, 203, 217, 1) 0%,
@@ -292,12 +277,14 @@ button {
   );
   color: white;
   border-radius: 30em;
-  height: 30px;
->>>>>>> a58302237a46ea32d635a2e4d5d88a77813ae47f
+  height: 32px;
+  width: 100px;
   border-color: rgba(231, 222, 255, 1);
   /* font-weight: 5px; */
   font-weight: bold;
 }
+
+
 
 footer {
   height: 190px;
@@ -330,4 +317,9 @@ h3 {
 label{
   font-size: 20px;
   font-weight: bold;
+}
+
+
+form {
+  width: 50%;
 }

@@ -1,3 +1,4 @@
+
 .navSession{
 
     background: linear-gradient(90deg, rgba(188,203,217,1) 0%, rgba(90,153,215,1) 50%, rgba(79,129,179,1) 68%);
@@ -6,6 +7,14 @@
     height: 500px;
 }
 
+footer{
+    height: 300px;
+    /* background-color:rgb(140, 132, 132); */
+    margin-top:600px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
 
 .header-img-container {
     position: relative;
@@ -17,6 +26,7 @@
   }
   
 
+
 body {
     margin: 0;
     padding: 0;
@@ -27,10 +37,12 @@ body {
     margin: 0 20px;
 }
 
+
 .top_gap_p {
-    margin-top: 720px;
+    margin-top: 750px;
     color: white;
 }
+
 
 .top-header {
     /* background-color: #003366; */
@@ -65,6 +77,10 @@ h2 {
     color:rgb(247, 218, 71);
     text-shadow: 2px 2px 3px  rgba(206,232,229,1) ;
 } 
+
+P  {
+    color: rgb(29, 54, 155);
+}
 
 
 /* placeholder color it does not work */
@@ -446,18 +462,17 @@ h2 {
   background-color: black;
 }
 
-
 footer {
-    height: 190px;
-    text-align: right;
-    padding: 0 120px;
-    background-color: white;
-  }
+  height: 190px;
+  text-align: right;
+  padding: 0 120px;
+  background-color: white;
+}
 
-  button {
-    height: 50px;
-    width: 80px;
-    text-align: right;
-    padding: 0 120px;
-  }
+button {
+  height: 50px;
+  width: 80px;
+  text-align: right;
+  padding: 0 120px;
+}
 
